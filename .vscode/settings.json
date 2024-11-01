@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "rte_temperaturesensor.h": "c",
+        "rte_heaterelement.h": "c",
+        "rte_temperaturesensor_type.h": "c",
+        "rte_humiditysensor.h": "c",
+        "rte_types.h": "c",
+        "iohwab_temperaturesensor.h": "c",
+        "std_types.h": "c",
+        "swc_temperaturesensor.h": "c",
+        "swc_humiditysensor.h": "c",
+        "iohwab_humiditysensor.h": "c",
+        "iohwab_heaterelement.h": "c",
+        "swc_mirrorheatercontrol.h": "c",
+        "rte_mirrorheatercontrol.h": "c",
+        "swc_heaterelement.h": "c",
+        "rte_mirrorheatercontrol_types.h": "c",
+        "rte_nvm.h": "c"
+    }
+}
