@@ -28,7 +28,7 @@ FUNC(Std_ReturnType, AUTOMATIC) Sht31_Read_Data(P2VAR(AUTOSAR_uint16, AUTOMATIC,
     return ret;
 }
 
-FUNC(Std_ReturnType, AUTOMATIC) IoHwAb_HumiSensor_ReadData(VAR(TempSensor, AUTOMATIC) id, P2VAR(AUTOSAR_uint16, AUTOMATIC) humiData)
+FUNC(Std_ReturnType, AUTOMATIC) IoHwAb_HumiSensor_ReadData(VAR(TempSensor, AUTOMATIC) id, P2VAR(AUTOSAR_uint16, AUTOMATIC,RTE_APPL_DATA) humiData)
 {
     VAR(Std_ReturnType, AUTOMATIC) ret = E_OK;
 

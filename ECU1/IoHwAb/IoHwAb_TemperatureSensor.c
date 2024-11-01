@@ -28,7 +28,7 @@ FUNC(Std_ReturnType, AUTOMATIC) Hdc2010_Read_Data(P2VAR(AUTOSAR_uint16, AUTOMATI
 }
 
 
-FUNC(Std_ReturnType, AUTOMATIC) IoHwAb_TempSensor_ReadData(VAR(TempSensor, AUTOMATIC) id, P2VAR(AUTOSAR_uint16, AUTOMATIC) data)
+FUNC(Std_ReturnType, AUTOMATIC) IoHwAb_TempSensor_ReadData(VAR(TempSensor, AUTOMATIC) id, P2VAR(AUTOSAR_uint16, AUTOMATIC,RTE_APPL_DATA) data)
 {
     VAR(Std_ReturnType, AUTOMATIC) ret = E_OK;
 
